@@ -1,0 +1,25 @@
+
+namespace methodtask3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string cumle = Console.ReadLine();
+            BosluqSil(cumle);
+        }
+        static void BosluqSil(string cumle)
+        
+        {
+            
+            for (int i = 0; i < cumle.Length; i++)
+            {
+                if (cumle[i] !=' ')
+                    Console.Write(cumle[i]);
+            }
+            
+        }
+     
+
+    }
+}
