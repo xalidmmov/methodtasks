@@ -1,0 +1,21 @@
+namespace methodtask1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] array= {1,2,3,4,5};
+            Console.WriteLine(minimum(array));
+        }
+     static int minimum(int[] arr)
+        {
+            int min = 6;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < min)  
+                    min = arr[i];
+            }
+            return min; 
+        }
+    }
+}
